@@ -1,4 +1,4 @@
-import java.util.List;
+import java.util.Collection;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
@@ -11,13 +11,15 @@ class Main {
     Course csc233 = new Course("CSC", 233, "Foundations of Computation");
     Course csc240 = new Course("CSC", 240, "Writing in Computer Science");
 
-    List<Course> courses = new ArrayList<>();
+    csc232.getTitle();
+
+    Collection<Course> courses = new ArrayList<>();
     courses.add(csc231);
     courses.add(csc232);
     courses.add(csc233);
     courses.add(csc240);
 
-    List<Course> courses2 = new LinkedList<>();
+    Collection<Course> courses2 = new LinkedList<>();
     courses2.addAll(courses);
 
     for (Course course : courses) {

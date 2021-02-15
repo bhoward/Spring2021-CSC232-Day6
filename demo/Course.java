@@ -49,7 +49,7 @@ public class Course {
    *
    * @return the course title
    */
-  public String title() {
+  public String getTitle() {
     return title;
   }
 
